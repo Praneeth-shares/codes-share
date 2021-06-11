@@ -30,7 +30,7 @@ History of maintenances:
 
 {
   <# Import Modules & Functions #>
-#  ."./functions-Conjur/Function-New-Conjur-Host.ps1"
+  ."./functions-Conjur/Function-New-Conjur-Host.ps1"
 
   <# Menu Variables #>
   [bool]$smValue = $TRUE
@@ -81,7 +81,9 @@ History of maintenances:
       1 {
         $smErr = $FALSE
         Clear-Host
-#        New-Conjur-Host
+        $hostname = Read-Host "Enter the Hostname"
+        $policy = Read-Host "Enter the parent policy"
+       New-Conjur-Host -policy $policy -host_name $hostname
       }
       2 {
         $smErr = $TRUE
