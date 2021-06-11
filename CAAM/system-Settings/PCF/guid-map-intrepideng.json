@@ -1,0 +1,20 @@
+﻿{
+  "Orgs": [
+    {
+      "Guid": "c803fe85-0ee9-4cb3-b0d4-afb4087a1646",
+      "CreationTime": "2019-07-09T16:06:59Z",
+      "UpdateTime": "2019-07-23T23:06:24Z",
+      "Name": "engineering",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "c5f59cd4-96c9-4034-8b3b-e46f24f0996b",
+          "CreationTime": "2019-07-09T16:07:24Z",
+          "UpdateTime": "2019-07-23T22:49:23Z",
+          "Name": "rnd",
+          "IsSuspended": false
+        }
+      ]
+    }
+  ]
+}

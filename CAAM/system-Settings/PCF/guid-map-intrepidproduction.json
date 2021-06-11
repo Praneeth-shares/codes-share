@@ -1,0 +1,257 @@
+{
+  "Orgs": [
+    {
+      "Guid": "0b3ac82a-cc0e-4be1-bc50-7892d423ed67",
+      "CreationTime": "2019-05-16T21:44:16Z",
+      "UpdateTime": "2019-05-16T21:50:08Z",
+      "Name": "corers",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "2fccdcd9-62d9-4626-b515-4f0226a7eab3",
+          "CreationTime": "2019-05-16T21:49:42Z",
+          "UpdateTime": "2019-05-16T21:50:08Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "a53de0df-2b4f-4ec3-a666-53068ef5d70f",
+          "CreationTime": "2019-05-16T21:49:42Z",
+          "UpdateTime": "2019-05-16T21:50:13Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "e33e09b4-579b-47e6-ba58-06cdba874435",
+      "CreationTime": "2019-05-16T21:44:16Z",
+      "UpdateTime": "2019-05-16T21:50:08Z",
+      "Name": "financialtools",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "67d9b179-23a0-475b-8cba-907edb29380a",
+          "CreationTime": "2019-05-16T21:49:42Z",
+          "UpdateTime": "2019-05-16T21:50:13Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "c3c70173-dd97-4f12-b572-088c10da0e5d",
+          "CreationTime": "2019-05-16T21:49:42Z",
+          "UpdateTime": "2019-05-16T21:50:13Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "18e9ffe0-73f1-4362-9eea-53fb2fdfde60",
+      "CreationTime": "2019-07-18T17:47:52Z",
+      "UpdateTime": "2019-07-18T17:48:50Z",
+      "Name": "configandcontent",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "fea6573e-5eeb-49e0-a372-b8f86dad54a9",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:48:55Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "8b25930b-27ef-454b-8df3-a3d1640ecffa",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:00Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "8baaee26-e032-4527-b066-cd9d49e87e5d",
+      "CreationTime": "2019-07-18T17:47:52Z",
+      "UpdateTime": "2019-07-18T17:48:50Z",
+      "Name": "correspondence",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "57913563-44ad-452e-b9cd-5054f3c00148",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:00Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "3ce88b24-bc77-42b8-96ee-0b9dd3819117",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:00Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "68417a2b-c1af-43eb-9fba-7c6ed308a7ea",
+      "CreationTime": "2019-07-18T17:47:52Z",
+      "UpdateTime": "2019-07-18T17:48:55Z",
+      "Name": "portalapps",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "5781eda4-d0e5-4bef-9abe-a6905288b5cd",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:00Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "069847ad-6aa1-425b-99a0-2cc68c66960b",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:05Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "e351727e-fe61-4c46-a3c0-955b52378547",
+      "CreationTime": "2019-07-18T17:47:52Z",
+      "UpdateTime": "2019-07-18T17:48:55Z",
+      "Name": "retail",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "4371f9ac-db73-4cc3-a2d6-642f94945786",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:05Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "dfcfcab4-8181-43aa-81f8-a8e859ab9581",
+          "CreationTime": "2019-07-18T17:48:20Z",
+          "UpdateTime": "2019-07-18T17:49:05Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "17abb044-688b-4347-9020-ff6284444eaf",
+      "CreationTime": "2019-08-23T19:01:59Z",
+      "UpdateTime": "2019-08-23T19:02:43Z",
+      "Name": "b2bapps",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "1e17b878-bbcf-4f04-b895-ed774378b674",
+          "CreationTime": "2019-08-23T19:02:27Z",
+          "UpdateTime": "2019-08-23T19:02:43Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "9ceeffbb-cc3a-46d0-af0a-ed482b80dd50",
+          "CreationTime": "2019-08-23T19:02:27Z",
+          "UpdateTime": "2019-08-23T19:02:48Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "9943e6e5-9e60-4e6f-8017-ee1fe07390e7",
+      "CreationTime": "2019-08-26T19:32:58Z",
+      "UpdateTime": "2019-08-26T19:33:40Z",
+      "Name": "b2bservices",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "34ed3c53-8c56-4622-b7fd-1fe1ac35cab9",
+          "CreationTime": "2019-08-26T19:33:25Z",
+          "UpdateTime": "2019-08-26T19:33:40Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "787c3ea3-1ac7-4cc3-aca0-4cf18f8d67a3",
+          "CreationTime": "2019-08-26T19:33:25Z",
+          "UpdateTime": "2019-08-26T19:33:40Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "00252cd0-ecbe-49bf-9351-c2e2829ca7fe",
+      "CreationTime": "2020-03-06T22:11:02Z",
+      "UpdateTime": "2020-03-06T22:12:09Z",
+      "Name": "securitygateway",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "c5f5e711-d819-422b-8743-95c6e7de8dd6",
+          "CreationTime": "2020-03-06T22:11:49Z",
+          "UpdateTime": "2020-03-06T22:12:09Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "00617895-2664-4be0-b83d-2a71d6b09697",
+          "CreationTime": "2020-03-06T22:11:49Z",
+          "UpdateTime": "2020-03-06T22:12:09Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "b0020489-3d6c-40bb-b029-7a332e5c1524",
+      "CreationTime": "2020-06-18T21:52:32Z",
+      "UpdateTime": "2020-06-18T21:53:30Z",
+      "Name": "batchrs",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "4b81a879-da89-4e24-8a1f-dcc061708a0f",
+          "CreationTime": "2020-06-18T21:53:09Z",
+          "UpdateTime": "2020-06-18T21:53:30Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "152e4de0-af87-45db-823e-479728805bd0",
+          "CreationTime": "2020-06-18T21:53:09Z",
+          "UpdateTime": "2020-06-18T21:53:30Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    },
+    {
+      "Guid": "37db21ad-9c41-4d38-ab7b-de41725ba4a3",
+      "CreationTime": "2020-08-05T15:40:42Z",
+      "UpdateTime": "2020-08-05T15:41:30Z",
+      "Name": "b2bportalapps",
+      "IsSuspended": false,
+      "Spaces": [
+        {
+          "Guid": "0b1da67d-22a6-4ed6-9fb0-ecb6a5e021c0",
+          "CreationTime": "2020-08-05T15:41:20Z",
+          "UpdateTime": "2020-08-05T15:41:30Z",
+          "Name": "prod-external",
+          "IsSuspended": false
+        },
+        {
+          "Guid": "e2c1e5d3-99ec-4637-b2db-2ae5ec3e854c",
+          "CreationTime": "2020-08-05T15:41:20Z",
+          "UpdateTime": "2020-08-05T15:41:30Z",
+          "Name": "prod-internal",
+          "IsSuspended": false
+        }
+      ]
+    }
+  ]
+}
