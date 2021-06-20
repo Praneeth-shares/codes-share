@@ -12,9 +12,9 @@ function Migrate-NePIS-Applications {
 	."./functions-CAAM/Function-Send-Email.ps1"
 
 	# Get NePIS Session (via WebSeal)
-	if(-not (Create-NePIS-Session)){
-		return;
-	}
+	#if(-not (Create-NePIS-Session)){
+	#	return;
+	#}
 
 	# Get Meta Info about the migration (ritm, application, pcf info)
 	Get-Meta-Migration-Info;

@@ -31,6 +31,7 @@ History of maintenances:
 {
   <# Import Modules & Functions #>
   ."./functions-Conjur/Function-New-Conjur-Host.ps1"
+  ."./functions-Conjur/Function-List-Conjur-Hosts.ps1"
 
   <# Menu Variables #>
   [bool]$smValue = $TRUE
@@ -63,6 +64,7 @@ History of maintenances:
     Write-Host " "
     Write-Host "Make your selection:"
     Write-Host -ForegroundColor Magenta "Host actions -------"
+    Write-Host -ForegroundColor White "0. " -NoNewline; Write-Host -ForegroundColor Gray "List hosts"
     Write-Host -ForegroundColor White "1. " -NoNewline; Write-Host -ForegroundColor Gray "Add host"
     Write-Host -ForegroundColor White "2. " -NoNewline; Write-Host -ForegroundColor Gray "Change host token"
     Write-Host -ForegroundColor White "3. " -NoNewline; Write-Host -ForegroundColor Gray "List host secrets"
@@ -78,12 +80,17 @@ History of maintenances:
 		<# Executes actions based on selection #>    
     switch ($sMenuSelect)
     {
+      0 {
+        $smErr = $FALSE
+        Clear-Host
+        List-Conjur-Hosts
+      }
       1 {
         $smErr = $FALSE
         Clear-Host
-        $hostname = Read-Host "Enter the Hostname"
-        $policy = Read-Host "Enter the parent policy"
-       New-Conjur-Host -policy $policy -host_name $hostname
+        #$hostname = Read-Host "Enter the Hostname"
+        #$policy = Read-Host "Enter the parent policy"
+       New-Conjur-Host
       }
       2 {
         $smErr = $TRUE
